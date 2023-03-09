@@ -1,13 +1,14 @@
 import Footer from "./Footer";
 import Home from "./Home";
 import Navbar from "./Navbar";
+import Verification from "./Verification";
+import About from "./About";
 import {
   Routes,
   Route,
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Verification from "./Verification";
 
 const Desktop = () => {
   return (
@@ -21,6 +22,7 @@ const Desktop = () => {
       <Routes>
         <Route path="/" element={<Home/>} /> 
         <Route path="/verify" element={<Verification/>} />
+        <Route path="/about" element={<About/>} />
       </Routes>
       <Footer />
     </div>

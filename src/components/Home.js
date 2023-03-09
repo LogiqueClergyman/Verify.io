@@ -29,25 +29,27 @@ const Home = () => {
             <button className="cursor-pointer p-0 bg-turquoise-200 absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-3xl box-border border-[1px] border-solid border-white" />
           </button>
           <div className="absolute h-[37.58%] w-[71.36%] top-[0%] left-[13.11%] inline-block">
-            <p className="[margin-block-start:0] [margin-block-end:0px]">
-              <span className="font-semibold">
+            <div className="[margin-block-start:0] [margin-block-end:0px]">
+              <div className="font-semibold my-7">
+                <div className="my-3">
                 <span className="text-white">{`Detect, Protect & `}</span>
                 <span className="text-turquoise-100">Secure</span>
-              </span>
+                </div>
+              </div>
               <span>
                 <span className="font-semibold">{` `}</span>
               </span>
-            </p>
+            </div>
             <p className="[margin-block-start:0] [margin-block-end:0px]">
               <span>
-                <span>Protection from spam, frauds</span>
+                <span className="font-thin">Protection from spam, frauds</span>
               </span>
             </p>
-            <p className="m-0">
+            <div className="my-7">
               <span>
                 <span>and phishing...</span>
               </span>
-            </p>
+            </div>
           </div>
         </div>
       </div>
