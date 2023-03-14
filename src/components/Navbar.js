@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logof from "../images/logof.svg"
 const Navbar = () => {
   return (
     <nav className=" relative bg-gray-200 overflow-hidden top-[0px] left-[0px] w-[1600px] h-[82px]">
@@ -12,7 +13,7 @@ const Navbar = () => {
         <Link to="/"><img
           className="absolute h-[22.5%] w-[7.03%] top-[37.5%] right-[84.64%] bottom-[40%] left-[8.33%] max-w-full overflow-hidden max-h-full"
           alt=""
-          src="../grupo-13.svg"
+          src={"../grupo-13.svg"}
         /></Link>
         <div className="absolute h-[22.5%] w-[2.64%] top-[38.75%] left-[21.04%] text-base font-ibm-plex-sans text-white text-left inline-block">
           <Link to="/" className="no-underline text-white">Home</Link>

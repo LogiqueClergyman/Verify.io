@@ -1,3 +1,4 @@
+import React from "react";
 const NavMobile = () => {
   return (
     <div className="absolute top-[0px] left-[2px] w-[388px] h-[70px]">

@@ -3,6 +3,12 @@ import Home from "./Home";
 import Navbar from "./Navbar";
 import Verification from "./Verification";
 import About from "./About";
+import About1 from "./About1";
+import Profie1 from "./Profile1"
+import History from "./History"
+import Pro from "./Pro"
+
+
 import {
   Routes,
   Route,
@@ -23,6 +29,7 @@ const Desktop = () => {
         <Route path="/" element={<Home/>} /> 
         <Route path="/verify" element={<Verification/>} />
         <Route path="/about" element={<About/>} />
+        <Route path="/profile" element={<Pro/>} />
       </Routes>
       <Footer />
     </div>

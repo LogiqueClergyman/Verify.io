@@ -13,20 +13,19 @@ const Home = () => {
             alt=""
             src="../group.svg"
           />
-          <button className="cursor-pointer [border:none] p-0 bg-[transparent] absolute h-[9.46%] w-[13.56%] top-[47.91%] right-[50.42%] bottom-[42.63%] left-[36.02%]">
-            <button className="cursor-pointer [border:none] p-0 bg-turquoise-100 absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-3xl" />
-            <div className="absolute h-[49.12%] w-[83.65%] top-[31.25%] left-[13.85%] text-lg font-medium font-ibm-plex-sans text-gray-100 text-left inline-block">
-              Jump right into...
-            </div>
+          <button className="cursor-pointer [border:none] bg-[transparent] absolute h-[9.46%] w-[13.56%] top-[47.91%] right-[50.42%] bottom-[42.63%] left-[36.02%]">
+            <button className="m-1 cursor-pointer [border:none] p-0 bg-turquoise-100 absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-3xl" />
+            <a className="ml-8 absolute h-[49.12%] w-[83.65%] top-[31.25%] left-[13.85%] text-lg font-medium font-ibm-plex-sans text-gray-100 text-left inline-block">
+              Get Started
+            </a>
           </button>
           <button
             className="cursor-pointer [border:none] p-0 bg-[transparent] absolute h-[9.46%] w-[13.56%] top-[47.91%] right-[36.16%] bottom-[42.63%] left-[50.28%]"
-            autoFocus
           >
             <div className="absolute h-[49.12%] w-[26.7%] top-[31.25%] left-[39.49%] text-lg font-medium font-ibm-plex-sans text-white text-left inline-block mix-blend-normal">
               Login
             </div>
-            <button className="cursor-pointer p-0 bg-turquoise-200 absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-3xl box-border border-[1px] border-solid border-white" />
+            <button className="m-1 cursor-pointer p-0 bg-turquoise-200 absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-3xl box-border border-[1px] border-solid border-white" />
           </button>
           <div className="absolute h-[37.58%] w-[71.36%] top-[0%] left-[13.11%] inline-block">
             <div className="[margin-block-start:0] [margin-block-end:0px]">

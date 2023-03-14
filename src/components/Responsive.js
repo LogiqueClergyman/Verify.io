@@ -3,7 +3,7 @@ import NavMobile from "./NavMobile";
 import HomeMobile from "./HomeMobile";
 import FooterMobile from "./FooterMobile";
 
-const Mobile = () => {
+const Responsive = () => {
   useEffect(() => {
     const scrollAnimElements = document.querySelectorAll(
       "[data-animate-on-scroll]"
@@ -36,7 +36,7 @@ const Mobile = () => {
 
   return (
     <div
-      className="relative bg-gray-300 w-full h-[1024px] overflow-hidden [&.animate]:animate-[0.25s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
+      className="relative bg-gray-300 w-[390px] h-[1024px] overflow-hidden [&.animate]:animate-[0.25s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
       data-animate-on-scroll
     >
       <NavMobile />
@@ -46,4 +46,4 @@ const Mobile = () => {
   );
 };
 
-export default Mobile;
+export default Responsive;

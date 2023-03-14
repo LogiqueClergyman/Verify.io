@@ -7,7 +7,7 @@ import {
 import {useMediaQuery} from "react-responsive"
 
 import Desktop from "./components/Desktop";
-import Mobile from "./components/Mobile"
+import Responsive from "./components/Responsive"
 import { useEffect } from "react";
 
 function App() {
@@ -52,7 +52,9 @@ function App() {
     // <p>Device Test</p>
     // (isDektopView && <LandingSection/>)
     // (isMobileView && <HomeMobile/>)
-    <Desktop />
+    <div>
+      <Desktop />
+    </div>
   );
 }
 export default App;

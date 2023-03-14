@@ -1,3 +1,4 @@
+import React from "react";
 const HomeMobile = () => {
   return (
     <div className="absolute top-[65px] left-[1px] w-[389px] h-[860px] text-center text-xl text-white font-ibm-plex-sans">
